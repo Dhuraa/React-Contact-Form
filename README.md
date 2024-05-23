@@ -45,8 +45,8 @@ Then crop/optimize/edit your image however you like, add it to your project, and
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://github.com/Dhuraa/React-Contact-Form)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Solution URL: [https://github.com/Dhuraa/React-Contact-Form](https://github.com/Dhuraa/React-Contact-Form)
+- Live Site URL: [https://dhuraa.github.io/React-Contact-Form/](https://dhuraa.github.io/React-Contact-Form/)
 
 ## My process
 
