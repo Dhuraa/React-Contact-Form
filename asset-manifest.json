@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/static/css/main.78201d79.css",
-    "main.js": "/static/js/main.30a04b02.js",
-    "static/js/453.a1c35c62.chunk.js": "/static/js/453.a1c35c62.chunk.js",
-    "index.html": "/index.html",
-    "main.78201d79.css.map": "/static/css/main.78201d79.css.map",
-    "main.30a04b02.js.map": "/static/js/main.30a04b02.js.map",
-    "453.a1c35c62.chunk.js.map": "/static/js/453.a1c35c62.chunk.js.map"
+    "main.css": "/React-Contact-Form/static/css/main.78201d79.css",
+    "main.js": "/React-Contact-Form/static/js/main.be215ee5.js",
+    "static/js/453.a1c35c62.chunk.js": "/React-Contact-Form/static/js/453.a1c35c62.chunk.js",
+    "index.html": "/React-Contact-Form/index.html",
+    "main.78201d79.css.map": "/React-Contact-Form/static/css/main.78201d79.css.map",
+    "main.be215ee5.js.map": "/React-Contact-Form/static/js/main.be215ee5.js.map",
+    "453.a1c35c62.chunk.js.map": "/React-Contact-Form/static/js/453.a1c35c62.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.78201d79.css",
-    "static/js/main.30a04b02.js"
+    "static/js/main.be215ee5.js"
   ]
 }
