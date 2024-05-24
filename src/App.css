@@ -11,10 +11,25 @@
   font-family: "Karla", sans-serif;
   max-width:500px !important;
   border-radius: 15px;
+  font-weight: 400;
 }
 
 .row{
   padding: 2% 0 2% 0;
+}
+
+.heading{
+  border-color: var(--dark-grey);
+}
+
+label{
+  border-color: var(--dark-grey);
+}
+
+.form-control{
+  border-color: var(--medium-grey) !important;
+  box-shadow: none!important;
+  cursor: pointer;
 }
 
 .form-control:focus, .form-control:hover  {
@@ -31,7 +46,7 @@
   display: block;
   min-height: 2.5rem !important;
   padding-left: 2.5em !important;
-  margin-bottom: -0.875rem !important;
+  margin-bottom: 0 !important;
 }
 
 .radio-css{
@@ -45,7 +60,7 @@
   appearance: none;
   background-color: var(--bs-body-bg);
   background-clip: padding-box;
-  border: var(--bs-border-width) solid var(--bs-border-color);
+  border: var(--bs-border-width) solid var(--medium-grey);
   border-radius: var(--bs-border-radius);
   transition: border-color .15s ease-in-out, box-shadow .15s ease-in-out;
 
@@ -74,3 +89,72 @@
 .errorMessage{
   color: var(--red);
 }
+
+.btn-green{
+  background-color: var(--green) !important;
+  color: var(--white) !important;
+}
+
+.marg-left-2{
+  margin-left:2%;
+}
+
+.queryType-marg{
+  margin-bottom: 5%;
+}
+
+.queryType-row{
+  padding-right: 0 !important;
+}
+
+.popup {
+  position: fixed;
+  top: 20px;
+  left: 0;
+  background-color: var(--dark-grey);
+  color: var(--white);
+  padding: 15px;
+  border-radius: 10px;
+  opacity: 0;
+  animation: fadeInOut 3s forwards;
+  z-index: 1000;
+  text-align: center;
+}
+
+@keyframes fadeInOut {
+  0% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+  20% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  80% {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  100% {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+
+@media only screen and (min-width: 600px) {
+  .form-check {
+    display: block;
+    min-height: 2.5rem !important;
+    padding-left: 2.5em !important;
+    margin-bottom: -0.875rem !important;
+  }
+  .queryType-marg{
+    margin-bottom: 0;
+  }
+
+  .popup {
+    left: 36%;
+  }
+}
+
+
+
