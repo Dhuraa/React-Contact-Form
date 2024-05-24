@@ -11,14 +11,13 @@ This is a solution to the [Contact form challenge on Frontend Mentor](https://ww
 - [My process](#my-process)
   - [Built with](#built-with)
   - [What I learned](#what-i-learned)
-  - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
 
 
 ## Overview
 
-This is a simple Contact Us Form Page made using React library.
+This is a basic Contact Us Form Page built with the React library. Users can enter their details, and the form includes validation for the input fields.
 
 ### The challenge
 
@@ -44,7 +43,14 @@ Users should be able to:
 
 ## My process
 
-I first created the HTML skeleton and used boostrap library to add life to the page.
+1. Created the HTML skeleton.
+2. Used the Bootstrap library to enhance the page's appearance.
+3. Using mobile first and responsive approach.
+4. Created state values.
+5. Adding onClick and onChnage events.
+6. Updated state values on each rerender.
+7. Adding validation for required field.
+
 
 ### Built with
 
@@ -52,40 +58,15 @@ I first created the HTML skeleton and used boostrap library to add life to the p
 - CSS custom properties
 - Mobile-first workflow
 - [React](https://reactjs.org/) - JS library
-- [Styled Components](https://styled-components.com/) - For styles
-
-**Note: These are just examples. Delete this note and replace the list above with your own choices**
+- [Bootstrap](https://getbootstrap.com/) - For styles
 
 ### What I learned
 
-Use this section to recap over some of your major learnings while working through this project. Writing these out and providing code samples of areas you want to highlight is a great way to reinforce your own knowledge.
-
-To see how you can add code snippets, see below:
-
-```html
-<h1>Some HTML code I'm proud of</h1>
-```
-```css
-.proud-of-this-css {
-  color: papayawhip;
-}
-```
-```js
-const proudOfThisFunc = () => {
-  console.log('🎉')
-}
-```
-
-### Continued development
-
-Use this section to outline areas that you want to continue focusing on in future projects. These could be concepts you're still not completely comfortable with or techniques you found useful that you want to refine and perfect.
-
+For me personally, I already knew majority of the concepts, but as I was out of practice, this was my way of revising it.
 
 ### Useful resources
 
-- [Github Pages](https://blog.logrocket.com/deploying-react-apps-github-pages/) - This is an amazing article which helped me finally publish the site. I'd recommend it to anyone having diificulty publishing their react projects on github.
-
-
+- [Github Pages](https://blog.logrocket.com/deploying-react-apps-github-pages/) - This is an amazing article which helped me finally publish the site. I'd recommend it to anyone having difficulty publishing their react projects on github.
 
 ## Author
 
